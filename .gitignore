@@ -1,10 +1,4 @@
-build
-img2txt.egg-info
-dist
-*.pyc
-*.swp
-*.swo
-*.jpg
-.ropeproject
-venv
-test
+node_modules
+*.log
+*.html
+*.txt
