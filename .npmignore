@@ -1,0 +1,6 @@
+*.html
+*.txt
+*.log
+*.tgz
+img/
+gulpfile.js

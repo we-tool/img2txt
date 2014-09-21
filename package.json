@@ -1,0 +1,16 @@
+{
+  "name": "img2txt",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "bin": {
+    "img2txt": "./cli.js"
+  },
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-eol": "^0.1.1"
+  }
+}
