@@ -1,5 +1,4 @@
-img2txt
-=======
+# img2txt
 
 > A fork of [hit9/img2txt](https://github.com/hit9/img2txt), implemented in node.js
 But now **PNG only**
