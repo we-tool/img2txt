@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+
+/** Copyright (c) 2013, hit9 */
 var minimist = require('minimist')
 var img2txt = require('./')
 

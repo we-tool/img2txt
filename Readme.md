@@ -56,4 +56,4 @@ Because it looks good in html.
 License
 -------
 
-MIT,  short and sweet.
+BSD,  short and sweet.

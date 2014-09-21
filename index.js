@@ -1,3 +1,5 @@
+/** Copyright (c) 2013, hit9 */
+
 var pngparse = require('pngparse')
 var fs = require('fs')
 var util = require('util')
