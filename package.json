@@ -1,8 +1,9 @@
 {
   "name": "img2txt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./index.js",
   "description": "Image to Ascii Text. Dead simple, something useless.",
+  "repository": "git@github.com:fritx/img2txt.git",
   "bin": {
     "img2txt": "./cli.js"
   },
