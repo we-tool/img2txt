@@ -4,6 +4,7 @@ var eol = require('gulp-eol')
 gulp.task('eol', function(){
   gulp.src([
     'LICENSE',
+    '.npm*',
     '.git*',
     '**/*.md',
     '**/*.js',
