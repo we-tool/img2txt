@@ -12,13 +12,11 @@ DEMOs
 
 The following picture: foo.jpg (230x354)
 
-![](http://hit9.org/img2txt/foo.jpg)
+1. `img2txt foo.jpg > 1.html`
 
-1. `img2txt foo.jpg > 1.html` : [demo](http://hit9.org/img2txt/1.html)
+1. `img2txt foo.jpg > 2.html`
 
-1. `img2txt foo.jpg > 2.html` : [demo](http://hit9.org/img2txt/2.html)
-
-1. `img2txt foo.jpg --nocolor > 3.html`  : [demo](http://hit9.org/img2txt/3.html)
+1. `img2txt foo.jpg --nocolor > 3.html`
 
 Installation
 ------------
