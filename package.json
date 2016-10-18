@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "minimist": "^1.1.0",
+    "pngparse": "^2.0.1",
     "underscore": "^1.7.0"
   },
   "devDependencies": {
