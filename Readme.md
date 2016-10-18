@@ -21,19 +21,21 @@ The following picture: foo.jpg (230x354)
 Installation
 ------------
 
-```
+```shell
 $ npm install -g img2txt
 ```
 
-CLI Usage
+As a CLI tool :zap:
 -----
 
     Usage: img2txt <imgfile> [--nocolor] [--nohtml] [--fontSize=<fontSize>]
 
 sample usage:
 
-    img2txt me.png > me.html
-    img2txt me.png --nocolor --nohtml
+```shell
+img2txt me.png > me.html
+img2txt me.png --nocolor --nohtml
+```
 
 the optional arguments:
 
@@ -41,7 +43,7 @@ the optional arguments:
     --nohtml            if in html, default: false
     --fontSize           the font-size(px) of text in the html, default: 12
 
-Programmatical Usage:
+Programmatical Usage: :+1:
 -----
 ```javascript
 var img2txt = require('img2txt');
