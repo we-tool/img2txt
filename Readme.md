@@ -58,7 +58,7 @@ img2txt('myAwesomeImg.png', {
 })
 ```
 
-Warning
+Warning :warning:
 -------
 
 Use browsers to look colored html may cause a big memory usage.
@@ -71,4 +71,4 @@ Because it looks good in html.
 License
 -------
 
-BSD,  short and sweet.
+BSD,  short and sweet. :trollface::
