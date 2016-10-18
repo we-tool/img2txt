@@ -46,10 +46,10 @@ Programmatical Usage:
 ```javascript
 var img2txt = require('img2txt');
 
-img2txt(file, {
-  fontSize: fontSize,
-  nocolor: nocolor,
-  nohtml: nohtml
+img2txt('myAwesomeImg.png', {
+  fontSize: 12,
+  nocolor: false,
+  nohtml: false
 }, function(err, ret) {
   if (err) throw err
   process.stdout.write(ret)
