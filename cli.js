@@ -14,7 +14,7 @@ img2txt(file, {
   fontSize: fontSize,
   nocolor: nocolor,
   nohtml: nohtml
-}, function(err, ret){
+}, function(err, ret) {
   if (err) throw err
   process.stdout.write(ret)
 })
