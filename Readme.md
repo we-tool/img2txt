@@ -7,7 +7,7 @@ Image to Ascii Text. Dead simple, something useless.
 
 **Just a toy**
 
-DEMOs
+DEMO's
 -----
 
 The following picture: foo.jpg (230x354)
@@ -21,19 +21,21 @@ The following picture: foo.jpg (230x354)
 Installation
 ------------
 
-```
+```shell
 $ npm install -g img2txt
 ```
 
-Usage
+As a CLI tool :zap:
 -----
 
     Usage: img2txt <imgfile> [--nocolor] [--nohtml] [--fontSize=<fontSize>]
 
 sample usage:
 
-    img2txt me.png > me.html
-    img2txt me.png --nocolor --nohtml
+```shell
+img2txt me.png > me.html
+img2txt me.png --nocolor --nohtml
+```
 
 the optional arguments:
 
@@ -41,7 +43,22 @@ the optional arguments:
     --nohtml            if in html, default: false
     --fontSize           the font-size(px) of text in the html, default: 12
 
-Warning
+Programmatical Usage: :+1:
+-----
+```javascript
+var img2txt = require('img2txt');
+
+img2txt('myAwesomeImg.png', {
+  fontSize: 12,
+  nocolor: false,
+  nohtml: false
+}, function(err, ret) {
+  if (err) throw err
+  process.stdout.write(ret)
+})
+```
+
+Warning :warning:
 -------
 
 Use browsers to look colored html may cause a big memory usage.
@@ -54,4 +71,4 @@ Because it looks good in html.
 License
 -------
 
-BSD,  short and sweet.
+BSD,  short and sweet. :trollface::
